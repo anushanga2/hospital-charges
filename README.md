@@ -3,7 +3,7 @@ This report examines a dataset of hospital charges in the United States, identif
 
 # Introduction 
 The following report analyzes a dataset of hospital charges in the USA, encompassing records of over 150,000 treatments across various providers addressing specific ailments. The dataset features details on 100 ailments, includes a list of 3000+ healthcare providers, and incorporates data from all 50 states and around 2000 cities across the USA. 
-In the given dataset DRG definition represents the Diagnosis related group which is a classification system used in healthcare to group patients with respect to diagnoses and treatments for medical billing. Provider ID is a unique identifier for each healthcare facility to distinguish one healthcare entity from another. Provider name represents the name of the healthcare facility. In the given data total discharges represent the number of patients who were discharged within a particular time frame. Average covered charges show the average costs that healthcare providers charge for services related to a particular DRG. Average total payments represent the amount that a healthcare provider received in response to a particular service. The charges attribute includes the cost or charges associated with medical services provided specific to a case. Average medicare payments represent the average payment made by the medicare program for medical services provided under specified DRG.  
+In the given dataset DRG definition represents the Diagnosis related group which is a classification system used in healthcare to group patients with respect to diagnoses and treatments for medical billing. Provider ID is a unique identifier for each healthcare facility to distinguish one healthcare entity from another. Provider name represents the name of the healthcare facility. In the given data total discharges represent the number of patients who were discharged within a particular time frame. Average covered charges show the average costs that healthcare providers charge for services related to a particular DRG. Average total payments represent the amount that a healthcare provider received in response to a particular service. The charges attribute includes the cost or charges associated with medical services provided specific to a case.  
 # Demographic Analysis 
 ## Distribution of healthcare provider by state 
 
@@ -17,7 +17,7 @@ Out of all the states in the USA, California has the highest number of healthcar
 Figure 2: Cost variation for the healthcare provider by City
 
 Chicago has contributed to the highest number of discharges(6,516) out of all the cities in the USA. Cherokee, Eldridge, Hamlin, Kinder, Nantucket, Norway, and Oak Forest cities have the least amount of discharges in the USA with just 11 discharges. As far as costs of covered charges are considered, Bayonne has the highest number of charges with $147,441. Stanford has the next most number of charges with $139,376. Dilley has the least amount of covered charges with $2,995. When considering average medicare payments, vail has the highest amount of medicare payments and Dilley has the lowest average medicare payments amounting to $39,943 and $2,872 respectively. 
-Distribution of cost with respect to the DRG
+## Distribution of cost with respect to the DRG
 
 ![Figure 3: Average covered charges and average total payments](https://github.com/anushanga2/hospital-charges/blob/main/images/3.PNG)  
 Figure 3: Average covered charges and average total payments 
